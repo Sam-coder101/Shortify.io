@@ -52,7 +52,6 @@ const Header = () => {
         <nav className="flex flex-col space-y-6 text-white text-xl">
           <Link to="/" className="hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>Home</Link>
           <Link to="/flashcards" className="hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>Flashcards</Link>
-          <Link to="/about" className="hover:text-purple-400 transition" onClick={() => setIsOpen(false)}>About</Link>
           <Link to="/todo" className="hover:text-purple-400 transition">Todo-List</Link>
           <Link to="/youtube" className="hover:text-purple-400 transition">Youtube</Link>
           <Link to="/gglimg" className="hover:text-purple-400 transition">Image-AI</Link>
