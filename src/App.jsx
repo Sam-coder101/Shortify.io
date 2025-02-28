@@ -5,7 +5,7 @@ import FlashcardPage from "./pages/FlashcardPage";
 import About from "./pages/About";
 import TodoList from "./pages/Todo";
 import YouTubeSearch from "./pages/YouTubeSearch";
-import DeepAIImageGenerator from "./pages/googleimg"
+import GoogleImageSearch from "./pages/googleimg"
 
 
 
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/todo" element={<TodoList />} />
           <Route path="/youtube" element={<YouTubeSearch />} />
-          <Route path="/gglimg" element={<DeepAIImageGenerator/>} />
+          <Route path="/gglimg" element={<GoogleImageSearch/>} />
         </Routes>
       </div>
     </Router>

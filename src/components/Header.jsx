@@ -19,7 +19,7 @@ const Header = () => {
           <Link to="/todo" className="hover:text-purple-400 transition">Todo-List</Link>
           <Link to="/youtube" className="hover:text-purple-400 transition">Youtube</Link>
           <Link to="/gglimg" className="hover:text-purple-400 transition">Image-AI</Link>
-          <Link to="/about" className="hover:text-purple-400 transition">About</Link>
+         
 
           {/* Show Sign In when logged out */}
           <SignedOut>
@@ -56,7 +56,7 @@ const Header = () => {
           <Link to="/todo" className="hover:text-purple-400 transition">Todo-List</Link>
           <Link to="/youtube" className="hover:text-purple-400 transition">Youtube</Link>
           <Link to="/gglimg" className="hover:text-purple-400 transition">Image-AI</Link>
-          <Link to="/about" className="hover:text-purple-400 transition">About</Link>
+          
 
           {/* Show Sign In when logged out */}
           <SignedOut>
