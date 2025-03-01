@@ -52,13 +52,11 @@ VITE_CLERK_PUBLISHABLE_KEY=pk_test_Y29udGVudC1taW5ub3ctMzIuY2xlcmsuYWNjb3VudHMuZ
 ### Run the Application
 #### Start the Backend Server
 ```bash
- cd server
- npm start
+ node server.js
 ```
 
 #### Start the Frontend
 ```bash
- cd client
  npm run dev
 ```
 
