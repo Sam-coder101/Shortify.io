@@ -42,10 +42,10 @@ Make sure you have the following installed:
 Create a `.env` file in the root directory and add:
 ```env
 
-HUGGINGFACE_API_KEY=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
+HUGGINGFACE_API_KEY=
 VITE_BACKEND_URL="http://localhost:5000"
-GOOGLE_API_KEY=AIzaSyBjS_pYYJpCu1bk0aLebVnaULWKxwdXszA
-VITE_CLERK_PUBLISHABLE_KEY=pk_test_Y29udGVudC1taW5ub3ctMzIuY2xlcmsuYWNjb3VudHMuZGV2JA
+GOOGLE_API_KEY=
+VITE_CLERK_PUBLISHABLE_KEY=
 
 ```
 
